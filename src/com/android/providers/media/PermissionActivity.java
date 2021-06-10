@@ -189,8 +189,12 @@ public class PermissionActivity extends Activity {
         TextView dialogMessage = (TextView) dialog.findViewById(
                 android.R.id.message);
         if (dialogMessage != null) {
+<<<<<<< HEAD
             dialogMessage.setTextAppearance(
                     android.R.style.TextAppearance_DeviceDefault_DialogWindowTitle);
+=======
+            dialogMessage.setTextAppearance(R.style.PermissionAlertDialogTitle);
+>>>>>>> 44d3f9635e20c28e03774ff507e026938e80e5eb
         } else {
             Log.w(TAG, "Couldn't find message element");
         }
